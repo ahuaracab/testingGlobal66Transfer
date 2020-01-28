@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0ceda62-865d-4812-be9c-f5fabeb3b50a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X2Lvc0Dcz0ecghGlbboeNZcsH4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hola" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testingGlobal66.testCases" />
+      <recent name="com.testingGlobal66.utilities" />
+      <recent name="com.testingGlobal66.pageObjects" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Global66\IdeaProjects\global66\Configuration" />
+      <recent name="C:\Users\Global66\IdeaProjects\global66\Drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC_LoginTest_001">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="testingGlobal66Tranfer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="testingGlobal66Tranfer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Global66/IdeaProjects/global66/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testingGlobal66Tranfer" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_LoginDDT_002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testingGlobal66Tranfer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.testingGlobal66.testCases.TC_LoginDDT_002" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_LoginDDT_002.loginDDT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testingGlobal66Tranfer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.testingGlobal66.testCases.TC_LoginDDT_002" />
+      <option name="METHOD_NAME" value="loginDDT" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_LoginTest_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testingGlobal66Tranfer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.testingGlobal66.testCases.TC_LoginTest_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_LoginTest_001.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testingGlobal66Tranfer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.testingGlobal66.testCases.TC_LoginTest_001" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC_LoginTest_001" />
+        <item itemvalue="TestNG.TC_LoginDDT_002" />
+        <item itemvalue="TestNG.TC_LoginDDT_002.loginDDT" />
+        <item itemvalue="TestNG.TC_LoginTest_001.loginTest" />
+        <item itemvalue="TestNG.C:/Users/Global66/IdeaProjects/global66/TestNG.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0ceda62-865d-4812-be9c-f5fabeb3b50a" name="Default Changelist" comment="" />
+      <created>1580239473870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580239473870</updated>
+      <workItem from="1580239483029" duration="1893000" />
+      <workItem from="1580241391162" duration="6677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="30" key="#Project_Structure" timestamp="1580240095135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="30" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580240095135" />
+    <state x="402" y="45" key="#TC_LoginTest_001" timestamp="1580241689888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="45" key="#TC_LoginTest_001/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580241689888" />
+    <state x="422" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580240343060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580240343060" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580248041293">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580248041293" />
+    <state width="956" height="283" key="GridCell.Tab.0.bottom" timestamp="1580247308368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="956" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
+    <state width="956" height="283" key="GridCell.Tab.0.center" timestamp="1580247308368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="956" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
+    <state width="956" height="283" key="GridCell.Tab.0.left" timestamp="1580247308368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="956" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
+    <state width="956" height="283" key="GridCell.Tab.0.right" timestamp="1580247308368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="956" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1580242533461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580242533461" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580241400426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580241400426" />
+    <state x="72" y="137" key="new project wizard" timestamp="1580248008023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="72" y="137" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580248008023" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/TC_LoginTest_001.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

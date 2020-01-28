@@ -1,0 +1,66 @@
+2020-01-28 15:17:48,655 - ebanking -INFO - URL is opened
+2020-01-28 15:17:48,781 - ebanking -INFO - Entered username
+2020-01-28 15:17:48,874 - ebanking -INFO - Entered password
+2020-01-28 15:17:49,677 - ebanking -INFO - Login test passed
+2020-01-28 15:37:25,009 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:37:25,413 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:42:59,976 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:43:00,341 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:44:43,977 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:44:44,386 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:44:44,512 - global66TransferLogin -INFO - Entered password
+2020-01-28 15:46:04,246 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:46:04,662 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:46:04,813 - global66TransferLogin -INFO - Entered password
+2020-01-28 15:47:39,657 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:47:40,040 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:47:40,157 - global66TransferLogin -INFO - Entered password
+2020-01-28 15:49:33,744 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:49:34,332 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:49:34,465 - global66TransferLogin -INFO - Entered password
+2020-01-28 15:50:38,097 - global66TransferLogin -INFO - URL is opened
+2020-01-28 15:50:38,564 - global66TransferLogin -INFO - Entered email
+2020-01-28 15:50:38,681 - global66TransferLogin -INFO - Entered password
+2020-01-28 15:50:48,806 - global66TransferLogin -INFO - Login test passed
+2020-01-28 16:05:22,611 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:05:22,990 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:05:23,124 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:06:44,395 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:06:44,773 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:06:44,889 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:07:48,251 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:07:48,603 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:07:48,716 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:11:50,572 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:11:50,915 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:11:51,031 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:14:42,610 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:14:42,952 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:14:43,061 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:15:48,379 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:15:48,734 - global66TransferLogin -INFO - Entered email provided
+2020-01-28 16:15:48,852 - global66TransferLogin -INFO - Entered password provided
+2020-01-28 16:18:43,093 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:18:43,457 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:18:43,574 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:20:10,126 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:20:11,414 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:20:39,328 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:20:39,674 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:20:39,804 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:21:35,780 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:21:36,159 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:21:36,272 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:21:46,393 - global66TransferLogin -INFO - Login test passed
+2020-01-28 16:25:03,327 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:25:03,686 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:25:03,794 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:30:15,915 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:30:16,252 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:30:16,358 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:34:04,099 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:34:04,446 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:34:04,558 - global66TransferLogin -INFO - Entered password
+2020-01-28 16:35:27,651 - global66TransferLogin -INFO - URL is opened
+2020-01-28 16:35:28,010 - global66TransferLogin -INFO - Entered email
+2020-01-28 16:35:28,127 - global66TransferLogin -INFO - Entered password
