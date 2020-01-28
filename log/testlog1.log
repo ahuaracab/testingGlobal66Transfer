@@ -64,3 +64,10 @@
 2020-01-28 16:35:27,651 [main] INFO global66TransferLogin - URL is opened
 2020-01-28 16:35:28,010 [main] INFO global66TransferLogin - Entered email
 2020-01-28 16:35:28,127 [main] INFO global66TransferLogin - Entered password
+2020-01-28 17:47:35,163 [main] INFO global66TransferLogin - URL is opened
+2020-01-28 17:47:35,534 [main] INFO global66TransferLogin - Entered email
+2020-01-28 17:47:35,652 [main] INFO global66TransferLogin - Entered password
+2020-01-28 17:50:18,436 [main] INFO global66TransferLogin - URL is opened
+2020-01-28 17:50:18,810 [main] INFO global66TransferLogin - Entered email
+2020-01-28 17:50:18,931 [main] INFO global66TransferLogin - Entered password
+2020-01-28 17:50:29,044 [main] INFO global66TransferLogin - Login test passed

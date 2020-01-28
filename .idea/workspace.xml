@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0ceda62-865d-4812-be9c-f5fabeb3b50a" name="Default Changelist" comment="" />
+    <list default="true" id="f0ceda62-865d-4812-be9c-f5fabeb3b50a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/loginTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/loginTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/TC_LoginTest_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/testCases/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/testCases/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/utilities/Reporting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/utilities/Reporting.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +24,9 @@
     <option name="hideInfoMessages" value="true" />
     <option name="HIDE_INFO_MESSAGES" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -18,13 +34,20 @@
     <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1X2Lvc0Dcz0ecghGlbboeNZcsH4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hola" />
@@ -44,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -57,7 +81,7 @@
       <recent name="C:\Users\Global66\IdeaProjects\global66\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_LoginTest_001">
+  <component name="RunManager" selected="TestNG.C:/Users/Global66/IdeaProjects/global66/TestNG.xml">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="testingGlobal66Tranfer" />
       <option name="VM_PARAMETERS" />
@@ -187,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Global66/IdeaProjects/global66/TestNG.xml" />
         <item itemvalue="TestNG.TC_LoginTest_001" />
         <item itemvalue="TestNG.TC_LoginDDT_002" />
         <item itemvalue="TestNG.TC_LoginDDT_002.loginDDT" />
         <item itemvalue="TestNG.TC_LoginTest_001.loginTest" />
-        <item itemvalue="TestNG.C:/Users/Global66/IdeaProjects/global66/TestNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580239473870</updated>
       <workItem from="1580239483029" duration="1893000" />
-      <workItem from="1580241391162" duration="6677000" />
+      <workItem from="1580241391162" duration="9795000" />
     </task>
     <servers />
   </component>
@@ -226,30 +250,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="422" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580240343060" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580248041293">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1580249842372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580248041293" />
-    <state width="956" height="283" key="GridCell.Tab.0.bottom" timestamp="1580247308368">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580249842372" />
+    <state width="955" height="283" key="GridCell.Tab.0.bottom" timestamp="1580251799265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="956" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
-    <state width="956" height="283" key="GridCell.Tab.0.center" timestamp="1580247308368">
+    <state width="955" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251799265" />
+    <state width="955" height="283" key="GridCell.Tab.0.center" timestamp="1580251799265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="956" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
-    <state width="956" height="283" key="GridCell.Tab.0.left" timestamp="1580247308368">
+    <state width="955" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251799265" />
+    <state width="955" height="283" key="GridCell.Tab.0.left" timestamp="1580251799265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="956" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
-    <state width="956" height="283" key="GridCell.Tab.0.right" timestamp="1580247308368">
+    <state width="955" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251799265" />
+    <state width="955" height="283" key="GridCell.Tab.0.right" timestamp="1580251799265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="956" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580247308368" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1580242533461">
+    <state width="955" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251799265" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1580251624749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580242533461" />
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251624749" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580241400426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,6 +282,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="72" y="137" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580248008023" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580249291971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580249291971" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

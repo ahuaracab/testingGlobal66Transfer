@@ -20,7 +20,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		logger.info("Entered password");
 		lp.clickSubmit();
 		Thread.sleep(10000);
-		System.out.println(driver.getCurrentUrl());
+//		System.out.println(driver.getCurrentUrl());
 		if (driver.getCurrentUrl().equals("https://transfer-test.global66.com/dashboard")) {
 			Assert.assertTrue(true);
 			logger.info("Login test passed");

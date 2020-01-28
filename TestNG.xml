@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="testingGlobal66">
+<suite name="global66Suite">
 
     <listeners>
         <listener class-name="com.testingGlobal66.utilities.Reporting"/>
     </listeners>
 
-    <test name="BankingApp Test">
-        <parameter name="browser" value="chrome"/>
+    <test name="global66Test">
+<!--        <parameter name="browser" value="chrome"/>-->
         <classes>
             <class name="com.testingGlobal66.testCases.TC_LoginTest_001"/>
-<!--            <class name="com.testingGlobal66.testCases.TC_LoginDDT_002"/>-->
-<!--            <class name="com.testingGlobal66.testCases.TC_AddCustomerTest_003"/>-->
-
 
         </classes>
 
