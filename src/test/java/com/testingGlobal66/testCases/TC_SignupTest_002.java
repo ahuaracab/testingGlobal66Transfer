@@ -13,33 +13,39 @@ public class TC_SignupTest_002 extends BaseClass {
 
 
     @Test(dataProvider = "SignupTestData")
-    public void signupTest(Object[] emailsObject) throws InterruptedException {
+    public void signupTest(String email) throws InterruptedException {
+
+        System.out.println(email);
+        String password = "ghlrd2j2.";
+        String passwordConfirm = "ghlrd2j2.";
+
         logger.info("URL abierta");
         SignupPage sup = new SignupPage(driver);
         sup.clickLnkSignup();
         logger.info("Abriendo página de registro");
-        Thread.sleep(3000);
-
-        String password = "ghlrd2j2.";
-        String passwordConfirm = "ghlrd2j2.";
+        Thread.sleep(5000);
 
         sup.setTxtEmail(email);
         logger.info("se ingresó email");
         sup.setTxtPassword(password);
 //        Thread.sleep(3000);
         logger.info("se ingresó password");
+        Thread.sleep(3000);
         sup.setTxtPasswordCorfirm(passwordConfirm);
 //        Thread.sleep(3000);
         logger.info("se ingresó confirmación de password");
+        Thread.sleep(3000);
         sup.clickChbxTC();
         Thread.sleep(3000);
         logger.info("se aceptó TyC");
         sup.clickBtnSignup();
-        Thread.sleep(3000);
+        Thread.sleep(10000);
         logger.info("se confirmó registro");
+        String message = sup.getMsgSignup();
+        System.out.println(message);
 
-
-        if (sup.getMsgSignup().equals("¡Revisa tu Email!")){
+        if (message.equals("¡Revisa tu Email!")){
+            System.out.println(message.equals("¡Revisa tu Email!"));
             sup.clickBtnReturnSingin();
             Assert.assertTrue(true);
             logger.info("Prueba exitosa");
@@ -54,7 +60,7 @@ public class TC_SignupTest_002 extends BaseClass {
         {
             ArrayList<String> emails = emailGenerator(5);
             System.out.println(emails);
-            Object[] emailsObject = emails.toArray();
+            Object[] emailsObject = (Object[]) emails.toArray();
             for (int i=0;i<5;i++){
                 System.out.println(emailsObject[i]);
             }

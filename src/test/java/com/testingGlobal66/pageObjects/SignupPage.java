@@ -43,7 +43,7 @@ public class SignupPage {
     @CacheLookup
     WebElement msgSignup;
 
-    @FindBy(xpath = "//*[text()=\"Iniciar sesión\"]")
+    @FindBy(xpath = "//*[@id=\"app\"]/div[2]/div[2]/div/div[2]/div[2]/div[2]/button")
     @CacheLookup
     WebElement btnReturnSignin;
 

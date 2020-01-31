@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BaseClass {
 	
@@ -73,41 +74,56 @@ public class BaseClass {
 		System.out.println("Screenshot taken");
 	}
 	
-//	public String randomString() {
-//		String generatedString = RandomStringUtils.randomAlphabetic(8);
-//		return generatedString;
-//	}
-
 	public int getEmailCount () throws IOException {
 		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
-		BufferedReader br = new BufferedReader(new FileReader(file));
-		int emailCount;
-		emailCount = Integer.parseInt(br.readLine());
-		br.close();
+		Scanner sc = new Scanner(file);
+		String count;
+		int emailCount = 0;
+		while (count = sc.hasNextLine())
+			System.out.println(sc.nextLine());
+		try {
+			emailCount = i;
+			System.out.println(emailCount);
+//			fr.close();
+
+		} catch (NumberFormatException nfe){
+			System.out.println("error de formato numerico");
+		}
+//
 		return emailCount;
+//
+
 	}
 
 	public void setEmailCount (int emailCount) throws IOException {
 		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
 		BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-		bw.write(emailCount);
+		bw.write(String.valueOf(emailCount));
 		bw.close();
 	}
 
-
 	public ArrayList<String> emailGenerator(int cant) throws IOException {
 		int emailCount = getEmailCount();
+		System.out.println(emailCount + "para arraylist");
 		ArrayList<String> emails = new ArrayList<String>();
 		String email;
 
-		for (int i=0; i<cant; i++) {
-			email = "testglobal"+emailCount+"@mailinator.com";
-			emails.add(email);
-			emailCount++;
-		}
-		setEmailCount(emailCount);
-		return(emails);
+
+			for (int i = 0; i < cant; i++) {
+
+				email = "testglobal" + String.valueOf(emailCount) + "@mailinator.com";
+				System.out.println(email + "en bucle");
+				emails.add(email);
+				emailCount++;
+			}
+			setEmailCount(emailCount);
+			return (emails);
+
+
+
+
 	}
 }
+
 	
 
