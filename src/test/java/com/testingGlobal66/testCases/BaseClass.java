@@ -2,21 +2,17 @@ package com.testingGlobal66.testCases;
 
 import com.testingGlobal66.utilities.ReadConfig;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.io.*;
+import java.util.ArrayList;
 
 public class BaseClass {
 	
@@ -81,5 +77,37 @@ public class BaseClass {
 //		String generatedString = RandomStringUtils.randomAlphabetic(8);
 //		return generatedString;
 //	}
-	
+
+	public int getEmailCount () throws IOException {
+		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+		BufferedReader br = new BufferedReader(new FileReader(file));
+		int emailCount;
+		emailCount = Integer.parseInt(br.readLine());
+		br.close();
+		return emailCount;
+	}
+
+	public void setEmailCount (int emailCount) throws IOException {
+		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+		BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+		bw.write(emailCount);
+		bw.close();
+	}
+
+
+	public ArrayList<String> emailGenerator(int cant) throws IOException {
+		int emailCount = getEmailCount();
+		ArrayList<String> emails = new ArrayList<String>();
+		String email;
+
+		for (int i=0; i<cant; i++) {
+			email = "testglobal"+emailCount+"@mailinator.com";
+			emails.add(email);
+			emailCount++;
+		}
+		setEmailCount(emailCount);
+		return(emails);
+	}
 }
+	
+

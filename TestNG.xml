@@ -10,7 +10,7 @@
     <test name="global66Test">
 <!--        <parameter name="browser" value="chrome"/>-->
         <classes>
-            <class name="com.testingGlobal66.testCases.TC_LoginTest_001"/>
+            <class name="com.testingGlobal66.testCases.TC_SignupTest_002"/>
 
         </classes>
 

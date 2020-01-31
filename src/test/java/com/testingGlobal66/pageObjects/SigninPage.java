@@ -6,11 +6,11 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class SigninPage {
 	
 	WebDriver ldriver;
 	
-	public LoginPage(WebDriver rdriver) {
+	public SigninPage(WebDriver rdriver) {
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
@@ -25,26 +25,26 @@ public class LoginPage {
 	
 	@FindBy(id = "signin-submit")
 	@CacheLookup
-	WebElement btnLogin;
+	WebElement btnSignin;
 	
-	@FindBy(xpath = "//*[text()=\"Cerrar sesión \"]")
-	@CacheLookup
-	WebElement lnkLogout;
+//	@FindBy(xpath = "//*[text()=\"Cerrar sesión \"]")
+//	@CacheLookup
+//	WebElement lnkSignout;
 	
-	public void setUserName(String email) {
+	public void setTxtEmail(String email) {
 		txtEmail.sendKeys(email);
 	}
 	
-	public void setPassword(String password) {
+	public void setTxtPassword(String password) {
 		txtPassword.sendKeys(password);
 	}
 	
-	public void clickSubmit() {
-		btnLogin.click();
+	public void clickBtnSignin() {
+		btnSignin.click();
 	}
-	
-	public void clickLogout() {
-		lnkLogout.click();
-	}
+
+//	public void clickLnkSignout() {
+//		lnkSignout.click();
+//	}
 	
 }

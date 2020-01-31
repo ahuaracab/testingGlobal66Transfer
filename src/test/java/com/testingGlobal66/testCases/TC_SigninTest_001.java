@@ -1,24 +1,24 @@
 package com.testingGlobal66.testCases;
 
-import com.testingGlobal66.pageObjects.LoginPage;
+import com.testingGlobal66.pageObjects.SigninPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TC_LoginTest_001 extends BaseClass{
+public class TC_SigninTest_001 extends BaseClass{
 	
 	@Test
-	public void loginTest() throws IOException, InterruptedException {
+	public void signinTest() throws IOException, InterruptedException {
 		
 		logger.info("URL is opened");
 		
-		LoginPage lp = new LoginPage(driver);
-		lp.setUserName(email);
+		SigninPage sip = new SigninPage(driver);
+		sip.setTxtEmail(email);
 		logger.info("Entered email");
-		lp.setPassword(password);
+		sip.setTxtPassword(password);
 		logger.info("Entered password");
-		lp.clickSubmit();
+		sip.clickBtnSignin();
 		Thread.sleep(10000);
 //		System.out.println(driver.getCurrentUrl());
 		if (driver.getCurrentUrl().equals("https://transfer-test.global66.com/dashboard")) {

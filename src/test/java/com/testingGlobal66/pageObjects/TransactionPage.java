@@ -45,7 +45,7 @@ public class TransactionPage {
     WebElement rbtCompany;
 
     //  Común en tipo de cuenta persona o empresa
-    @FindBy(xpath = "//*[text()=\"Nombre legal completo\"]")
+    @FindBy(name = "nombre")
     @CacheLookup
     WebElement txtName;
 
@@ -170,9 +170,7 @@ public class TransactionPage {
 
 
     public void clickRbtAccountType(String accountType ) {
-        if (accountType.equals("persona")){
-            rbtPersonal.click();
-        } else if (accountType.equals("empresa")){
+        if (accountType.equals("empresa")){
             rbtCompany.click();
         }
     }

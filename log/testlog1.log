@@ -103,3 +103,62 @@
 2020-01-29 18:59:57,199 [main] INFO global66TransferLogin - Entered email provided
 2020-01-29 18:59:57,327 [main] INFO global66TransferLogin - Entered password provided
 2020-01-29 19:00:22,964 [main] INFO global66TransferLogin - URL is opened
+2020-01-30 10:08:57,422 [main] INFO global66TransferLogin - URL is opened
+2020-01-30 10:08:57,832 [main] INFO global66TransferLogin - Entered email provided
+2020-01-30 10:08:57,948 [main] INFO global66TransferLogin - Entered password provided
+2020-01-30 10:09:24,699 [main] INFO global66TransferLogin - URL is opened
+2020-01-30 10:14:37,581 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:14:37,908 [main] INFO global66TransferLogin - email listo
+2020-01-30 10:14:38,028 [main] INFO global66TransferLogin - password lista
+2020-01-30 10:14:53,233 [main] INFO global66TransferLogin - cotizador abierto
+2020-01-30 10:14:53,420 [main] INFO global66TransferLogin - monto de origen listo
+2020-01-30 10:14:58,521 [main] INFO global66TransferLogin - datos personales abierto
+2020-01-30 10:15:03,630 [main] INFO global66TransferLogin - tipo de cuenta seleccionado
+2020-01-30 10:15:03,720 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:27:08,991 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:27:09,366 [main] INFO global66TransferLogin - email listo
+2020-01-30 10:27:09,480 [main] INFO global66TransferLogin - password lista
+2020-01-30 10:27:24,640 [main] INFO global66TransferLogin - cotizador abierto
+2020-01-30 10:27:24,803 [main] INFO global66TransferLogin - monto de origen listo
+2020-01-30 10:27:29,924 [main] INFO global66TransferLogin - datos personales abierto
+2020-01-30 10:27:35,059 [main] INFO global66TransferLogin - tipo de cuenta seleccionado
+2020-01-30 10:27:55,232 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:33:28,843 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:33:29,223 [main] INFO global66TransferLogin - email listo
+2020-01-30 10:33:29,345 [main] INFO global66TransferLogin - password lista
+2020-01-30 10:33:44,540 [main] INFO global66TransferLogin - cotizador abierto
+2020-01-30 10:33:44,745 [main] INFO global66TransferLogin - monto de origen listo
+2020-01-30 10:33:49,848 [main] INFO global66TransferLogin - datos personales abierto
+2020-01-30 10:33:54,961 [main] INFO global66TransferLogin - tipo de cuenta seleccionado
+2020-01-30 10:33:55,031 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:34:59,334 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:34:59,718 [main] INFO global66TransferLogin - email listo
+2020-01-30 10:34:59,841 [main] INFO global66TransferLogin - password lista
+2020-01-30 10:35:15,042 [main] INFO global66TransferLogin - cotizador abierto
+2020-01-30 10:35:15,178 [main] INFO global66TransferLogin - monto de origen listo
+2020-01-30 10:35:20,290 [main] INFO global66TransferLogin - datos personales abierto
+2020-01-30 10:35:25,387 [main] INFO global66TransferLogin - tipo de cuenta seleccionado
+2020-01-30 10:35:25,502 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:59:54,238 [main] INFO global66TransferLogin - URL abierta
+2020-01-30 10:59:54,563 [main] INFO global66TransferLogin - email listo
+2020-01-30 10:59:54,689 [main] INFO global66TransferLogin - password lista
+2020-01-30 11:00:09,853 [main] INFO global66TransferLogin - cotizador abierto
+2020-01-30 11:00:10,020 [main] INFO global66TransferLogin - monto de origen listo
+2020-01-30 11:00:15,129 [main] INFO global66TransferLogin - datos personales abierto
+2020-01-30 11:00:20,130 [main] INFO global66TransferLogin - tipo de cuenta seleccionado
+2020-01-30 11:00:20,259 [main] INFO global66TransferLogin - URL abierta
+2020-01-31 12:03:17,332 [main] INFO global66TransferLogin - URL abierta
+2020-01-31 12:03:17,434 [main] INFO global66TransferLogin - Abriendo página de registro
+2020-01-31 12:04:09,086 [main] INFO global66TransferLogin - URL abierta
+2020-01-31 12:04:09,215 [main] INFO global66TransferLogin - Abriendo página de registro
+2020-01-31 12:04:12,577 [main] INFO global66TransferLogin - se ingresó email
+2020-01-31 12:04:12,713 [main] INFO global66TransferLogin - se ingresó password
+2020-01-31 12:04:12,796 [main] INFO global66TransferLogin - se ingresó confirmación de password
+2020-01-31 12:04:12,912 [main] INFO global66TransferLogin - se confirmó registro
+2020-01-31 12:07:26,324 [main] INFO global66TransferLogin - URL abierta
+2020-01-31 12:07:26,409 [main] INFO global66TransferLogin - Abriendo página de registro
+2020-01-31 12:07:29,750 [main] INFO global66TransferLogin - se ingresó email
+2020-01-31 12:07:29,878 [main] INFO global66TransferLogin - se ingresó password
+2020-01-31 12:07:30,012 [main] INFO global66TransferLogin - se ingresó confirmación de password
+2020-01-31 12:07:33,105 [main] INFO global66TransferLogin - se aceptó TyC
+2020-01-31 12:07:36,210 [main] INFO global66TransferLogin - se confirmó registro
