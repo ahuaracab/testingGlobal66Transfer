@@ -13,16 +13,15 @@ import org.testng.annotations.BeforeClass;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class BaseClass {
-	
-	ReadConfig readconfig = new ReadConfig();
-	
-	public String baseURL = readconfig.getBaseURL();
-	public String email = readconfig.getEmail();
-	public String password = readconfig.getPassword();
-	
+
+    ReadConfig readconfig = new ReadConfig();
+
+    public String baseURL = readconfig.getBaseURL();
+    public String email = readconfig.getEmail();
+    public String password = readconfig.getPassword();
+
 //	public String customerName = readconfig.getCustomerName();
 //	public String gender = readconfig.getGender();
 //	public String month = readconfig.getMonth();
@@ -35,94 +34,95 @@ public class BaseClass {
 //	public String phone = readconfig.getPhone();
 //	public String email = randomString()+"@gmail.com";
 //	public String passNewCustomer = readconfig.getPassNewCustomer();
-	
-	public static WebDriver driver;
-	
+
+    public static WebDriver driver;
+
 	public static Logger logger;
-	
-//	@Parameters("browser")
-	@BeforeClass
-	public void setup() {
-		
-		logger = Logger.getLogger("global66TransferLogin");
-		PropertyConfigurator.configure("log4j.properties");
-		
+
+
+
+    //	@Parameters("browser")
+    @BeforeClass
+    public void setup() {
+
+        logger = Logger.getLogger("global66TransferLogin");
+        PropertyConfigurator.configure("log4j.properties");
+
 //		if (br.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
-			driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+        driver = new ChromeDriver();
 //		} else if (br.equals("firefox")) {
 //			System.setProperty("webdriver.gecko.driver", readconfig.getFirefoxPath());
 //			driver = new FirefoxDriver();
 //		}
 //
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(baseURL);
-		
-	}
-	
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
-	
-	public void captureScreen(WebDriver driver, String tname) throws IOException {
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
-		FileUtils.copyFile(source, target);
-		System.out.println("Screenshot taken");
-	}
-	
-	public int getEmailCount () throws IOException {
-		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
-		Scanner sc = new Scanner(file);
-		String count;
-		int emailCount = 0;
-		while (count = sc.hasNextLine())
-			System.out.println(sc.nextLine());
-		try {
-			emailCount = i;
-			System.out.println(emailCount);
+        driver.manage().window().maximize();
+        driver.get(baseURL);
+
+    }
+
+    @AfterClass
+    public void tearDown() {
+        driver.quit();
+    }
+
+    public void captureScreen(WebDriver driver, String tname) throws IOException {
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+        FileUtils.copyFile(source, target);
+        System.out.println("Screenshot taken");
+    }
+
+    public int getEmailCount() throws IOException {
+        FileReader file = new FileReader(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+        BufferedReader br = new BufferedReader(file);
+        int count = 0;
+        String emailCount = br.readLine();
+        System.out.println("emailCount: " + emailCount);
+        try {
+            count = Integer.parseInt(emailCount);
+            System.out.println("count:" + count);
 //			fr.close();
 
-		} catch (NumberFormatException nfe){
-			System.out.println("error de formato numerico");
-		}
-//
-		return emailCount;
-//
+        } catch (NumberFormatException nfe) {
+            System.out.println("error de formato numerico");
+        }
+        br.close();
+        file.close();
+        return count;
+    }
 
-	}
+    public void setEmailCount(int emailCount) throws IOException {
+        FileWriter file = new FileWriter(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+        BufferedWriter bw = new BufferedWriter(file);
+        bw.write(String.valueOf(emailCount));
+        bw.close();
+        file.close();
 
-	public void setEmailCount (int emailCount) throws IOException {
-		File file = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
-		BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-		bw.write(String.valueOf(emailCount));
-		bw.close();
-	}
+    }
 
-	public ArrayList<String> emailGenerator(int cant) throws IOException {
-		int emailCount = getEmailCount();
-		System.out.println(emailCount + "para arraylist");
-		ArrayList<String> emails = new ArrayList<String>();
-		String email;
+    public ArrayList<String> emailGenerator(int cant) throws IOException {
+        int emailCount = getEmailCount();
+        System.out.println("emailCount: " + emailCount);
+        ArrayList<String> emails = new ArrayList<String>();
+        String email = null;
 
+        for (int i = 0; i < cant; i++) {
 
-			for (int i = 0; i < cant; i++) {
+            email = "testglobal" + String.valueOf(emailCount) + "@mailinator.com";
+            System.out.println("email: " + email);
+            emails.add(email);
+            emailCount++;
+        }
 
-				email = "testglobal" + String.valueOf(emailCount) + "@mailinator.com";
-				System.out.println(email + "en bucle");
-				emails.add(email);
-				emailCount++;
-			}
-			setEmailCount(emailCount);
-			return (emails);
+        System.out.println("emailCount final: " + emailCount);
+        System.out.println("emails: " + email);
 
-
-
-
-	}
+        setEmailCount(emailCount);
+        return (emails);
+    }
 }
 
 	
