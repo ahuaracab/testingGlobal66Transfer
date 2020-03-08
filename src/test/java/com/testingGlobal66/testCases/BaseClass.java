@@ -76,7 +76,7 @@ public class BaseClass {
     }
 
     public int getEmailCount() throws IOException {
-        FileReader file = new FileReader(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+        FileReader file = new FileReader(System.getProperty("user.dir") + "/src/test/java/com/testingGlobal66/testData/testEmailCount.txt");
         BufferedReader br = new BufferedReader(file);
         int count = 0;
         String emailCount = br.readLine();
@@ -95,7 +95,7 @@ public class BaseClass {
     }
 
     public void setEmailCount(int emailCount) throws IOException {
-        FileWriter file = new FileWriter(System.getProperty("user.dir") + "\\src\\test\\java\\com\\testingGlobal66\\testData\\testEmailCount.txt");
+        FileWriter file = new FileWriter(System.getProperty("user.dir") + "/src/test/java/com/testingGlobal66/testData/testEmailCount.txt");
         BufferedWriter bw = new BufferedWriter(file);
         bw.write(String.valueOf(emailCount));
         bw.close();

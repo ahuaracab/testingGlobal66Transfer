@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ceda62-865d-4812-be9c-f5fabeb3b50a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taudemo/SeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/taudemo/SeleniumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taudemo/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taudemo/WithAssertionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taudemo/WithConfigurationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/loginTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/loginTest.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testData/testEmailCount.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testingGlobal66/testData/testEmailCount.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/testingGlobal66Tranfer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taudemo/SeleniumTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/testCases/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testingGlobal66/testCases/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/taudemo/SeleniumTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/restful-booker-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,7 +92,8 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -100,11 +102,12 @@
       <recent name="com.testingGlobal66.pageObjects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Drivers" />
       <recent name="C:\Users\Global66\IdeaProjects\global66\Configuration" />
       <recent name="C:\Users\Global66\IdeaProjects\global66\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.com.testingGlobal66">
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="testingGlobal66Tranfer" />
       <option name="VM_PARAMETERS" />
@@ -152,69 +155,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_SignupTest_002 (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WithConfigurationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testingGlobal66Transfer" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
+          <option name="PATTERN" value="com.taudemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.testingGlobal66.testCases.TC_SignupTest_002" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.taudemo" />
+      <option name="MAIN_CLASS_NAME" value="com.taudemo.WithConfigurationTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dchromerowser=./Drivers/chromedriver" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testingGlobal66Transfer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-DchromeBrowser=./Drivers/chromedriver" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/ahuaracab/Desktop/projects/testingGlobal66Transfer/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="com.taudemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testingGlobal66Transfer" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.testingGlobal66" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testingGlobal66Transfer" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testingGlobal66.*" />
+          <option name="PATTERN" value="com.taudemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testingGlobal66" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.taudemo" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.testingGlobal66.testCases" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testingGlobal66Transfer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testingGlobal66.testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testingGlobal66.testCases" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-DchromeBrowser=./Drivers/chromedriver" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -223,11 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.com.testingGlobal66" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.com.testingGlobal66.testCases" />
-        <item itemvalue="TestNG./home/ahuaracab/Desktop/projects/testingGlobal66Transfer/TestNG.xml" />
-        <item itemvalue="TestNG.TC_SignupTest_002 (4)" />
+        <item itemvalue="TestNG.com.taudemo" />
+        <item itemvalue="TestNG.WithConfigurationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +252,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -272,22 +286,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="45" key="#TC_LoginTest_001/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580241689888" />
+    <state x="665" y="197" width="647" height="710" key="#TC_SigninTest_001" timestamp="1583619384984">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="665" y="197" width="647" height="710" key="#TC_SigninTest_001/67.27.1853.1053@67.27.1853.1053" timestamp="1583619384984" />
+    <state x="451" y="210" width="1084" height="771" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583638045308">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" width="1084" height="771" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583638045308" />
     <state x="422" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580240343060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="422" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580240343060" />
+    <state x="1345" y="358" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583638008598">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1345" y="358" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583638008598" />
     <state x="617" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1580485883677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="617" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580485883677" />
+    <state x="630" y="518" width="524" height="442" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583637522826">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="630" y="518" width="524" height="442" key="#com.intellij.ide.util.PackageChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583637522826" />
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580575957734">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580575957734" />
-    <state x="529" y="96" width="919" height="912" key="CommitChangelistDialog2" timestamp="1583122327819">
+    <state x="733" y="401" width="511" height="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583640066071">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="529" y="96" width="919" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1583122327819" />
+    <state x="733" y="401" width="511" height="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1583640066071" />
+    <state x="529" y="96" width="919" height="912" key="CommitChangelistDialog2" timestamp="1583642039638">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="529" y="96" width="919" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1583642039638" />
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1583618501748">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -297,35 +331,51 @@
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580249842372" />
     <state x="695" y="205" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583383812740" />
-    <state width="1809" height="271" key="GridCell.Tab.0.bottom" timestamp="1583615614424">
+    <state width="1809" height="271" key="GridCell.Tab.0.bottom" timestamp="1583640158282">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1134" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580506327766" />
     <state width="1333" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580399974467" />
-    <state width="1809" height="271" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583615614424" />
-    <state width="1809" height="271" key="GridCell.Tab.0.center" timestamp="1583615614424">
+    <state width="1809" height="271" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583640158282" />
+    <state width="1809" height="271" key="GridCell.Tab.0.center" timestamp="1583640158281">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1134" height="166" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580506327765" />
     <state width="1333" height="176" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580399974467" />
-    <state width="1809" height="271" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583615614424" />
-    <state width="1809" height="271" key="GridCell.Tab.0.left" timestamp="1583615614424">
+    <state width="1809" height="271" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583640158281" />
+    <state width="1809" height="271" key="GridCell.Tab.0.left" timestamp="1583640158281">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1134" height="166" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580506327765" />
     <state width="1333" height="176" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580399974467" />
-    <state width="1809" height="271" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583615614424" />
-    <state width="1809" height="271" key="GridCell.Tab.0.right" timestamp="1583615614424">
+    <state width="1809" height="271" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583640158281" />
+    <state width="1809" height="271" key="GridCell.Tab.0.right" timestamp="1583640158281">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1134" height="166" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580506327766" />
     <state width="1333" height="176" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580399974467" />
-    <state width="1809" height="271" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583615614424" />
-    <state x="580" y="126" width="1024" height="845" key="SettingsEditor" timestamp="1583465231315">
+    <state width="1809" height="271" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583640158281" />
+    <state width="1809" height="336" key="GridCell.Tab.1.bottom" timestamp="1583640074062">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1809" height="336" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583640074062" />
+    <state width="1809" height="336" key="GridCell.Tab.1.center" timestamp="1583640074061">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1809" height="336" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583640074061" />
+    <state width="1809" height="336" key="GridCell.Tab.1.left" timestamp="1583640074060">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1809" height="336" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583640074060" />
+    <state width="1809" height="336" key="GridCell.Tab.1.right" timestamp="1583640074061">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1809" height="336" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583640074061" />
+    <state x="580" y="126" width="1024" height="845" key="SettingsEditor" timestamp="1583640038424">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="326" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580251624749" />
-    <state x="580" y="126" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1583465231315" />
+    <state x="580" y="126" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1583640038424" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1583133457036">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -339,6 +389,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580329394120" />
+    <state x="707" y="456" width="563" height="193" key="git4idea.ui.GitStashDialog" timestamp="1583641962252">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="707" y="456" width="563" height="193" key="git4idea.ui.GitStashDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583641962252" />
     <state x="72" y="137" key="new project wizard" timestamp="1580248008023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -347,19 +401,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580498237026" />
-    <state x="536" y="98" width="912" height="981" key="search.everywhere.popup" timestamp="1583383784799">
+    <state x="584" y="214" width="800" height="677" key="scopes" timestamp="1583639590566">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="584" y="214" width="800" height="677" key="scopes/67.27.1853.1053@67.27.1853.1053" timestamp="1583639590566" />
+    <state x="536" y="98" width="912" height="981" key="search.everywhere.popup" timestamp="1583627221118">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580249291971" />
-    <state x="536" y="98" width="912" height="981" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583383784799" />
+    <state x="536" y="98" width="912" height="981" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583627221118" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testingGlobal66/pageObjects/SignupPage.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/testingGlobal66/testCases/TC_SigninTest_001.java</url>
           <line>8</line>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
