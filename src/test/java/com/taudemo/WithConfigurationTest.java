@@ -29,4 +29,5 @@ public class WithConfigurationTest {
         Assert.assertEquals(driver.getTitle(), "Example Domain");
     }
 
+
 }

@@ -14,4 +14,9 @@ public class WithAssertionsTest {
     public void secondAssertion() {
         Assert.assertEquals(45, 45);
     }
+
+    @Test
+    public void thirdAssertion() {
+        Assert.assertEquals(34, 34);
+    }
 }
